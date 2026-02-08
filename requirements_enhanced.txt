@@ -1,0 +1,49 @@
+# DISHA Enhanced - Requirements
+# Install with: pip install -r requirements_enhanced.txt
+
+# Core Dependencies
+SpeechRecognition>=0.10.0
+pyttsx3>=2.90
+pyaudio>=0.2.14
+python-dotenv>=1.0.0
+colorama>=0.4.6
+
+# AI & Machine Learning
+openai>=1.0.0                    # OpenAI GPT (optional)
+google-generativeai>=0.3.0       # Google Gemini (recommended - FREE tier)
+
+# System Control
+pyautogui>=0.3.0
+psutil>=5.9.0
+plyer>=2.1.0
+
+# File & Data Processing
+Pillow>=10.0.0
+pytesseract>=0.3.10
+PyPDF2>=3.0.0
+pyperclip>=1.8.3
+chardet>=5.1.0
+
+# Web & Network
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0  # For advanced web automation (optional)
+
+# Task Scheduling
+schedule>=1.2.0
+
+# Audio Processing (for ElevenLabs TTS)
+sounddevice>=0.4.6  # For audio playback
+soundfile>=0.12.1   # For audio file reading
+
+# Optional: Enhanced TTS with ElevenLabs
+# elevenlabs>=0.2.0  # Uncomment if using ElevenLabs
+
+# Optional: Advanced AI capabilities
+# anthropic>=0.7.0   # Uncomment for Claude API support
+# google-generativeai>=0.3.0  # Uncomment for Gemini support
+
+# Development Tools (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
